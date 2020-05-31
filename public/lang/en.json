@@ -1,0 +1,27 @@
+{
+    "title": "Pekora Button",
+    "action": {
+        "random": "Help me choose one",
+        "nonstop": "Random non-stop",
+        "loop": "Loop",
+        "overlap": "Overlap",
+        "bgm": "BGM",
+        "volume": "Volume",
+        "stop": "Stop"
+    },
+    "context": {
+        "source": "Youtube source URL",
+        "trans": "Help with translation"
+    },
+    "text": {
+        "trans": "Help with translation",
+        "contrib": "Add more audio/pekobuttons",
+        "term": "This project is a work of enthusiasts and is not related to the hololive official",
+        "aqua": "Aqua Button",
+        "fubuki": "Fubuki Button"
+    },
+    "lang": {
+        "en": "English",
+        "ja": "日本語"
+    }
+}
