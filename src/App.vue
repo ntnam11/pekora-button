@@ -225,7 +225,8 @@ export default class App extends Vue {
     text-align: center;
     color: #2c3e50;
     .logo {
-      width: 40px;
+      width: calc(var(--spacing-med) * 2);
+      height: calc(var(--spacing-med) * 2);
     }
     .nav {
       display: flex;
@@ -237,7 +238,7 @@ export default class App extends Vue {
       .contact {
         display: flex;
         a {
-          padding: 10px;
+          padding: var(--spacing-low);
           display: flex;
           &:hover {
             background: var(--pekora-color-light);
@@ -248,8 +249,8 @@ export default class App extends Vue {
         &>div {
           cursor: pointer;
           &:first-child {
-            padding: 20px;
-            height: calc(100% - 40px);
+            padding: var(--spacing-med);
+            height: calc(100% - var(--spacing-med) * 2);
           }
           &:last-child {
             right: 0;
@@ -263,7 +264,7 @@ export default class App extends Vue {
           }
         }
         .lang {
-          padding: 20px;
+          padding: var(--spacing-med);
           right: 0;
           background: var(--pekora-color);
           &:hover {
@@ -274,7 +275,7 @@ export default class App extends Vue {
       }
     }
     .controller {
-      margin: 10px 0;
+      margin: var(--spacing-low) 0;
       display: flex;
       > div {
         display: flex;
@@ -305,10 +306,28 @@ export default class App extends Vue {
       justify-content: space-between;
       padding: 10px;
       width: -webkit-fill-available;
-      position: absolute;
-      bottom: 0;
       > * {
         margin: auto 0;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    #app {
+      .controller {
+        > div {
+          display: block;
+          > * {
+            margin: 10px 10px;
+          }
+        }
+      }
+      .group {
+        .group-header {
+          .btn {
+            width: initial;
+            max-width: initial;
+          }
+        }
       }
     }
   }
