@@ -1,0 +1,27 @@
+{
+    "title": "ぺこらボタン",
+    "action": {
+        "random": "ランダム",
+        "nonstop": "とまらない",
+        "loop": "ループ",
+        "overlap": "重なる",
+        "bgm": "BGM",
+        "volume": "ボリューム",
+        "stop": "ストップ"
+    },
+    "context": {
+        "source": "Youtube source URL",
+        "trans": "Help with translation"
+    },
+    "text": {
+        "trans": "Help with translation",
+        "contrib": "Add more audio/pekobuttons",
+        "term": "このプロジェクトは愛好家の作品であり、ホロライブの関係者とは関係ありません",
+        "aqua": "あくあボタン",
+        "fubuki": "フブキボタン"
+    },
+    "lang": {
+        "en": "English",
+        "ja": "日本語"
+    }
+}
